@@ -23,5 +23,15 @@ class Main {
         System.out.println(queue.pop());
         System.out.println(queue.pop());
         System.out.println(queue.pop());
+
+        System.out.println("=== HashTable ===");
+        HashTable<String, Integer> hashTable = new HashTable<String, Integer>(3);
+        hashTable.put("one", 1);
+        hashTable.put("two", 2);
+        hashTable.put("three", 3);
+        System.out.println(hashTable.get("one"));
+        hashTable.remove("one");
+        System.out.println(hashTable.get("one"));
+        
     }
 }
