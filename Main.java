@@ -33,5 +33,13 @@ class Main {
         hashTable.remove("one");
         System.out.println(hashTable.get("one"));
         
+        System.out.println("=== ArrayList ===");
+        ArrayList<String> arrayList = new ArrayList<String>();
+        arrayList.add("Item 1");
+        arrayList.add("Item 2");
+        arrayList.add("Item 3");
+        System.out.println("Size: "+ arrayList.size);
+        arrayList.remove(2);
+        System.out.println("Size: "+ arrayList.size);
     }
 }
