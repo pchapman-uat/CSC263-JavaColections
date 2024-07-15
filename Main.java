@@ -16,13 +16,13 @@ class Main {
 
         System.out.println("=== Queue ===");
         Queue<Integer> queue = new Queue<Integer>();
-        queue.push(1);
-        queue.push(2);
-        queue.push(3);
+        queue.queue(1);
+        queue.queue(2);
+        queue.queue(3);
         System.out.println(queue.peek());
-        System.out.println(queue.pop());
-        System.out.println(queue.pop());
-        System.out.println(queue.pop());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
+        System.out.println(queue.dequeue());
 
         System.out.println("=== HashTable ===");
         HashTable<String, Integer> hashTable = new HashTable<String, Integer>(3);
